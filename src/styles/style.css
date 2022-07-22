@@ -256,7 +256,7 @@ p {
 
 /*ikea effect*/
 
-.ikea-effect {
+.section-1 {
   position: relative;
   background-color: var(--light);
   width: 100%;
@@ -265,7 +265,7 @@ p {
   margin: 0;
 }
 
-.ikea-effect::before {
+.section-1::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -276,6 +276,11 @@ p {
   background-size: cover;
   opacity: 0.1;
   content: "";
+}
+
+.ikea-effect {
+  padding: 100px 0;
+  width: 1110px;
 }
 
 .main-head {
@@ -346,16 +351,17 @@ p {
 
 /*premature optimization*/
 
-.premature-optimization {
+.section-2 {
   position: relative;
   background-color: var(--brown);
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0;
 }
 
-.premature-optimization::before {
+.section-2::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -367,6 +373,12 @@ p {
   opacity: 0.1;
   content: "";
 }
+
+.premature-optimization {
+  padding: 100px 0;
+  width: 1110px;
+}
+
 .main-head {
   display: flex;
   gap: 30px;
@@ -432,4 +444,33 @@ p {
 .left-text-even, .right-text-even {
   width: 540px;
   color: var(--white);
+}
+
+/*distortion of novelty*/
+
+.section-3 {
+  position: relative;
+  background-color: var(--light);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.section-3::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  content: "";
+}
+
+.distortion-of-novelty {
+  padding: 100px 0;
+  width: 1110px;
 }
