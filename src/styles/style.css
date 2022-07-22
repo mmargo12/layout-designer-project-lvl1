@@ -293,17 +293,24 @@ p {
   margin: 0;
 }
 
-.main-subtitle {
+.main-subtitle-odd {
   font-family: 'Neucha';
   font-size: 24px;
   margin: 0;
   color: var(--sheer-dark);
 }
 
-.main-title {
+.main-title-odd {
   margin: 0;
   margin-bottom: 30px;
   color: var(--dark);
+}
+
+.main-text-odd {
+  font-family: 'Neucha';
+  font-size: 34px;
+  color: var(--dark);
+  line-height: 40.8px;
 }
 
 .main-howwork {
@@ -311,12 +318,13 @@ p {
   margin-top: 100px;
 }
 
-.main-headingblock {
+.main-headingblock-odd {
   display: block;
   background: var(--brown);
+  margin-bottom: 20px;
 }
 
-.main-subheading {
+.main-subheading-odd {
   color: var(--white);
   font-family: 'Open Sans';
   font-weight: 700;
@@ -332,3 +340,96 @@ p {
   margin: 0;
 }
 
+.left-text-odd, .right-text-odd {
+  width: 540px;
+}
+
+/*premature optimization*/
+
+.premature-optimization {
+  position: relative;
+  background-color: var(--brown);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.premature-optimization::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  content: "";
+}
+.main-head {
+  display: flex;
+  gap: 30px;
+}
+
+.img-side {
+  margin: 0;
+  vertical-align: middle;
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.text-side {
+  margin: 0;
+}
+
+.main-subtitle-even {
+  font-family: 'Neucha';
+  font-size: 24px;
+  margin: 0;
+  color: var(--sheer-white);
+}
+
+.main-title-even {
+  margin: 0;
+  margin-bottom: 30px;
+  color: var(--white);
+}
+
+.main-text-even {
+  font-family: 'Neucha';
+  font-size: 34px;
+  color: var(--white);
+  line-height: 40.8px;
+}
+
+.main-howwork {
+  margin: 0;
+  margin-top: 100px;
+}
+
+.main-headingblock-even {
+  display: block;
+  background: var(--white);
+  margin-bottom: 20px;
+}
+
+.main-subheading-even {
+  color: var(--brown);
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 5px 10px;
+}
+
+.main-columns {
+  display: flex;
+  column-count: 2;
+  column-gap: 30px;
+  margin: 0;
+}
+
+.left-text-even, .right-text-even {
+  width: 540px;
+  color: var(--white);
+}
