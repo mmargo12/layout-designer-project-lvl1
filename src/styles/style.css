@@ -474,3 +474,33 @@ p {
   padding: 100px 0;
   width: 1110px;
 }
+
+/*hyperbolic depreciation*/
+
+.section-4 {
+  position: relative;
+  background-color: var(--brown);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.section-4::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  content: "";
+}
+
+.hyperbolic-depreciation {
+  padding: 100px 0;
+  width: 1110px;
+}
