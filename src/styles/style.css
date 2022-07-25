@@ -94,6 +94,7 @@ p {
 }
 
 .header-title {
+  position: absolute;
   margin-top: 0;
   margin-bottom: 185px;
   z-index: 2;
@@ -116,6 +117,7 @@ p {
   column-count: 2;
   column-gap: 30px;
   margin: 0;
+  margin-top: 443px;
 }
 
 .left-text,
@@ -141,6 +143,7 @@ p {
 /*video section*/
 
 .video-section {
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -167,8 +170,13 @@ p {
 .video {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 359px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 /*navigation*/
@@ -180,6 +188,13 @@ p {
   justify-content: center;
   align-items: center;
   margin: 0;
+  margin-top: 475px;
+}
+
+.card-content {
+  padding: 200px 0;
+  width: 1110px;
+  position: relative;
 }
 
 .cards {
