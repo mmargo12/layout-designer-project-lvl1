@@ -548,3 +548,107 @@ p {
   padding: 100px 0;
   width: 1110px;
 }
+
+/*footer*/
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background: var(--white);
+}
+
+.subscription {
+  display: flex;
+  background-color: var(--main-dark);
+}
+
+.subscription-text {
+  display: block;
+  color: var(--white);
+  margin: 0;
+  margin: 55px 122px 55px 55px;
+}
+
+.subscription-form {
+  margin: 38px 55px 40px 0;
+}
+
+.form-label {
+  display: block;
+  color: var(--white);
+  font-size: 18px;
+}
+
+.form-input {
+  height: 20px;
+  width: 403px;
+  padding: 15px;
+  border: none;
+}
+
+.form-input::placeholder {
+  font-size: 13.1px;
+  color: #757575;
+  opacity: 0.2;
+}
+
+.bttn-send {
+  position: relative;
+  height: 50px;
+  width: 70px;
+  background-color: var(--main);
+  padding: 0;
+  border: none;
+}
+
+.bttn-send::before {
+  position: absolute;
+  content: '';
+  background-image: url("images/send.svg");
+  background-repeat: no-repeat;
+  top: 13.5px;
+  right: 23.5px;
+  bottom: 13.5px;
+  left: 23.5px;
+  margin: auto;
+  border: none;
+}
+
+.bttn-send:hover {
+  background: #EA7600;
+  cursor: pointer;
+}
+
+.input-bttn {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 9px;
+}
+
+.form-small-text {
+  font-size: 12px;
+  color: var(--white);
+}
+
+.form-small-text-link {
+  color: var(--white);
+}
+
+.contact-info {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.contact-info-text {
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.contact-info-link {
+  color: #007DC1;
+}
