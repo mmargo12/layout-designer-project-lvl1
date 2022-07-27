@@ -176,7 +176,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px #00000026);
 }
 
 /* navigation */
@@ -310,7 +310,7 @@ p {
 .img-side {
   margin: 0;
   vertical-align: middle;
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0px 16px 32px #00000026);
 }
 
 .text-side {
