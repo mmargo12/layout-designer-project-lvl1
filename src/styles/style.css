@@ -193,6 +193,7 @@ p {
 
 .card-content {
   padding: 200px 0;
+  padding-bottom: 100px;
   width: 1110px;
   position: relative;
 }
