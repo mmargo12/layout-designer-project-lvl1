@@ -413,7 +413,7 @@ p {
 }
 
 .main-text-even {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-size: 34px;
   color: var(--white);
   line-height: 40.8px;
